@@ -27,6 +27,12 @@ public class MainController {
     userRepository.save(n);
     return "Saved";
   }
+  
+  @GetMapping("/hello")
+	public String hello(@RequestParam(value = "name", defaultValue = "world") String name) {
+		return String.format("hello %s", name);
+		
+	}
 
   @GetMapping(path="/all")
   public @ResponseBody Iterable<User> getAllUsers() {

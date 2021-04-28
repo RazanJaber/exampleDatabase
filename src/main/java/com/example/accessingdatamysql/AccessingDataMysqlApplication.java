@@ -16,7 +16,7 @@ public class AccessingDataMysqlApplication extends SpringBootServletInitializer{
 		SpringApplication.run(AccessingDataMysqlApplication.class, args);
 	}
 	
-	@GetMapping("/hello")
+	@GetMapping("/helloworld")
 	public String hello(@RequestParam(value = "name", defaultValue = "world") String name) {
 		return String.format("hello %s", name);
 		
