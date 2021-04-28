@@ -107,7 +107,7 @@
 		<repository>
 			<id>internal.repo</id>
 			<name>Internal repo</name>
-			<url>git@github.com/RazanJaber/Pvt_SqlProject.git</url>
+			<url>git@github.com/RazanJaber/exampleDatabase.git</url>
 		</repository>
 	</distributionManagement>
 
